@@ -679,12 +679,6 @@
     <section id="reviews">
         <h2 data-i18n="rev_title">Apa Kata Tetamu</h2>
         <p class="section-desc" data-i18n="rev_sub">Pengalaman sebenar dari tetamu yang berpuas hati.</p>
-        
-        <!-- 1. ELFSIGHT WIDGET (UNCOMMENT TO ENABLE) -->
-        <!-- 
-        <script src="https://elfsightcdn.com/platform.js" async></script>
-        <div class="elfsight-app-06131665-fb17-4dfa-9b83-a91495c9935f" data-elfsight-app-lazy></div> 
-        -->
 
         <!-- 2. MANUAL REVIEW GRID (FALLBACK) -->
         <div id="static-reviews-container">
@@ -706,21 +700,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- 3. LOGIC SCRIPT: AUTO SWITCH -->
-        <script>
-            // Check if Elfsight widget is present on the page
-            const elfsightWidget = document.querySelector('.elfsight-app-06131665-fb17-4dfa-9b83-a91495c9935f');
-            const staticReviews = document.getElementById('static-reviews-container');
-
-            if (elfsightWidget) {
-                // If Elfsight code is uncommented/present, hide manual reviews
-                staticReviews.style.display = 'none';
-            } else {
-                // If Elfsight code is commented out/missing, show manual reviews
-                staticReviews.style.display = 'block';
-            }
-        </script>
     </section>
 
     <section id="social" class="social-section" style="padding: 40px 5%; text-align: center;">
