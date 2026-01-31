@@ -186,7 +186,6 @@ const translations = {
         
         social_title: "Ikuti Kami", social_sub: "Kekal berhubung untuk promosi terkini.",
         tiktok_title: "Video Menarik", tiktok_sub: "Tonton momen indah di Ivory Damai.",
-        click_to_play: "Klik untuk Tonton",
         
         loc_title: "Lokasi Kami",
         book_title: "Tempah Sekarang", book_desc: "Isi maklumat di bawah, kami akan bawa anda terus ke WhatsApp untuk pengesahan segera.",
@@ -221,7 +220,6 @@ const translations = {
         
         social_title: "Follow Us", social_sub: "Stay connected for latest updates.",
         tiktok_title: "Video Highlights", tiktok_sub: "Watch beautiful moments at Ivory Damai.",
-        click_to_play: "Click to Watch",
         
         loc_title: "Our Location",
         book_title: "Book Now", book_desc: "Fill in details below, we will redirect you to WhatsApp for confirmation.",
